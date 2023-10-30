@@ -1,15 +1,26 @@
-    # 2. Write a python function called palindrome that receives a string s as an
-    #    argument. It will return True if s is a palindrome and False if
-    #    not. A palindrome is a word that will read the same from left
-    #    to right and right to left. e.g. "dad", "abba"
+    # 3. Write a python function called panagram that receives a string s as an
+    #    argument. It will return True if s is a panagram and False if
+    #    not. A panagram is a sentence that contains all letters of the
+    #    alphabet. e.g. "the quick brown fox jumps over the lazy dog"
 
 
-def palindrome(s):
-    s=input("enter a word  :  ")
-    if s == s[::-1]:
-        print("True")
-    else:
-        print("False")
+def panagram(s):
+    s=input("enter your sentence : ")
+    ansr=" "
+    ref_string = 'abcdefghijklmnopqrstuvwxyz '
+    for i in ref_string:
+        if i in s:
+            ansr=True
+        else:
+            ansr=False
+            break
+    return ansr
+  
+myfunction=panagram(" ")
+print(myfunction)
 
 
-palindrome('')
+
+
+
+
