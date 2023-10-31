@@ -16,6 +16,18 @@ class Testpalindrome(unittest.TestCase):
     def testIsnullPalindrome(self):
         sentence = ""
         self.assertTrue(palindrome(sentence))
+        
+
+
+class Testfreq(unittest.TestCase):
+    
+    def testIsFreq(self):
+        sentence = "hallo"
+        exp_output={"a":1 , "l":2 , "h":1 , "o":1}
+        self.assertDictEqual(exp_output,freq(sentence))
+        
+        
+        
 
 
 if __name__ == "__main__":
