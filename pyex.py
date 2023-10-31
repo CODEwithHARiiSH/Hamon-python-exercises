@@ -87,12 +87,12 @@ def freq(s):
 
 if __name__ == '__main__':
     fizzbizz(30)
-    b=palindrome("abba")
-    c=panagram("the quick brown fox jumps over the lazy dog")
-    d=freq("hallo")
-    print(b)
-    print(c)
-    print(d)
+    check_palindrome=palindrome("abba")
+    check_panagram=panagram("the quick brown fox jumps over the lazy dog")
+    check_freq=freq("hallo")
+    print(check_palindrome)
+    print(check_panagram)
+    print(check_freq)
     
 
 
