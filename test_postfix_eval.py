@@ -11,3 +11,6 @@ def test_operand_minus():
     
 def test_operand_multiplication():
     assert evaluat("94*") == 36
+
+def test_operand_division():
+    assert evaluat("93*") == 3
