@@ -8,3 +8,6 @@ def test_operand_addition():
     
 def test_operand_minus():
     assert evaluat("94-") == 5
+    
+def test_operand_multiplication():
+    assert evaluat("94*") == 36
