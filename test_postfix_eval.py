@@ -20,3 +20,6 @@ def test_minus_1():
 
 def test_three_operands():
     assert evaluat("93+6*") == 72
+    
+def test_three_operands_1():
+    assert evaluat("93-6*6-") == 30
