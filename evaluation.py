@@ -12,6 +12,7 @@ def evaluat(x):
                 stack.append(operand_1*operand_2)
             elif i == "/":
                 stack.append(operand_2//operand_1)
+
         else:
             stack.append(int(i))
     return stack.pop()
