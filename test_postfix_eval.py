@@ -25,3 +25,6 @@ def test_three_operands_1():
     assert evaluat("93-6*6-") == 30
 def test_alphabet():
     assert evaluat("aa66+") == 12
+
+def test_only_alphabets():
+    assert evaluat("aa") == "Invalid Inputs"
