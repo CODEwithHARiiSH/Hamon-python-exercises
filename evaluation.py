@@ -18,3 +18,9 @@ def evaluat(x):
     return stack.pop()
     
     
+    
+    
+if __name__ == '__main__':
+    print(evaluate("44+"))
+    
+    
